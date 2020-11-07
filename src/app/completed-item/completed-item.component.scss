@@ -1,0 +1,7 @@
+.completed-item {
+    text-decoration: line-through;
+    font-style: italic;
+}
+::ng-deep .mat-card .mat-divider-horizontal {
+    position: unset !important;
+}

@@ -1,0 +1,39 @@
+.todo-container {
+    display: block;
+    position: relative;
+    width: 30%;
+    margin: auto;
+    padding-top: 150px;
+  
+    .card-container {
+  
+      border-radius: 18px;
+      padding: 0px;
+      
+      .card-header {
+        border-radius: 18px 18px 0px 0px;
+        height: 50px;
+        background-color: #c8d7ff;
+
+        .card-title {
+            font-family: Roboto;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 25px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            letter-spacing: 1.5px;
+            color: #073e8c;
+            text-transform: uppercase;
+          }
+      }
+  
+      .card-content {
+        padding: 25px;
+        margin-left: 8px;
+        display: flex;
+        }
+  
+    }
+}

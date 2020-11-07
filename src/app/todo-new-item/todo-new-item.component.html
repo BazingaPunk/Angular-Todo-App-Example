@@ -1,0 +1,7 @@
+<div>
+    <mat-form-field appearance="outline" class="example-full-width">
+        <mat-label>Add New Todo</mat-label>
+        <input matInput placeholder="Ex: Learn Angular Basics...." (keyup.enter)="keyUpFunction($event)">
+    </mat-form-field>
+    <app-todo-list [todoItemArray]="todoItemArray"></app-todo-list>
+</div>

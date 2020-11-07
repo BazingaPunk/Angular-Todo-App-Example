@@ -1,0 +1,9 @@
+<div class="data">
+    <div *ngFor="let todo of todoItemArray" >
+        <app-todo-list-item [item]="todo"></app-todo-list-item>
+    </div>
+        <br>
+    <div>
+        <app-completed-item></app-completed-item>
+    </div>
+</div>
