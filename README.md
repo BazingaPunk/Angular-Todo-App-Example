@@ -14,6 +14,7 @@ Run `git clone https://github.com/ThuanShafer/Angular-Todo-App-Example.git`.
 
 ## Install Dependencies
 
+Navigate to your project folder `cd Angular-Todo-App-Example`.
 Run `npm install`.
 
 ## Run the Application
